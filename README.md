@@ -1,4 +1,4 @@
 PCA_verification
 ================
 
-Developing an IP based software in MATLAB that can verify mounted PCB components.
+Developing an Image Processing software in MATLAB that can be used to verify mounted Printed Circuit Boards. 
