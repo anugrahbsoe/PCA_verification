@@ -1,0 +1,54 @@
+ant:
+
+<mkdir dir="C:\Ravi\Programming\Matlab\PS_Project\demo_compre\Appication\PCA_main\distrib" />
+<mkdir dir="C:\Ravi\Programming\Matlab\PS_Project\demo_compre\Appication\PCA_main\src" />
+mcc -o PCA_main -W WinMain:PCA_main -T link:exe -d C:\Ravi\Programming\Matlab\PS_Project\demo_compre\Appication\PCA_main\src -w enable:specified_file_mismatch -w enable:repeated_file -w enable:switch_ignored -w enable:missing_lib_sentinel -w enable:demo_license -v C:\Ravi\Programming\Matlab\PS_Project\demo_compre\GUI_new.m -a C:\Ravi\Programming\Matlab\PS_Project\demo_compre\GUI_new.fig -a C:\Ravi\Programming\Matlab\PS_Project\demo_compre\logo.jpg
+Compiler version: 4.18.1 (R2013a)
+Processing C:\Program Files\MATLAB\R2013a\toolbox\matlab\mcc.enc
+Processing C:\Program Files\MATLAB\R2013a\toolbox\images\mcc.enc
+Processing C:\Ravi\Programming\Matlab\PS_Project\demo_compre\GUI_new.fig
+Processing C:\Program Files\MATLAB\R2013a\toolbox\shared\imageslib\mcc.enc
+Processing C:\Program Files\MATLAB\R2013a\toolbox\matlab\guide\guideopts.fig
+Processing C:\Program Files\MATLAB\R2013a\toolbox\matlab\winfun\actxcontrolselect.fig
+Processing C:\Program Files\MATLAB\R2013a\toolbox\matlab\winfun\actxcontrolcreateproperty.fig
+Processing C:\Program Files\MATLAB\R2013a\toolbox\shared\spcuilib\mcc.enc
+Processing include files...
+2 item(s) added.
+Processing directories installed with MCR...
+The file C:\Ravi\Programming\Matlab\PS_Project\demo_compre\Appication\PCA_main\src\mccExcludedFiles.log contains a list of functions excluded from the CTF archive.
+0 item(s) added.
+Generating MATLAB path for the compiled application...
+Created 51 path items.
+Warning: Adding path "C:\Ravi\Programming\Matlab\PS_Project\demo_compre" to
+Compiler path instance.
+Parsing file "C:\Ravi\Programming\Matlab\PS_Project\demo_compre\GUI_new.m"
+    (Referenced from: "Compiler Command Line").
+Parsing file "C:\Program Files\MATLAB\R2013a\toolbox\compiler\deploy\deployprint.m"
+    (Referenced from: "Compiler Command Line").
+Parsing file "C:\Program Files\MATLAB\R2013a\toolbox\compiler\deploy\printdlg.m"
+    (Referenced from: "Compiler Command Line").
+Deleting 21 temporary MEX authorization files.
+Removing: 'C:\Users\Admin\AppData\Local\Temp\mathworks_tmp_4504_20186_4504.auth'.
+Removing: 'C:\Users\Admin\AppData\Local\Temp\mathworks_tmp_4504_14153_4504.auth'.
+Removing: 'C:\Users\Admin\AppData\Local\Temp\mathworks_tmp_4504_20586_4504.auth'.
+Removing: 'C:\Users\Admin\AppData\Local\Temp\mathworks_tmp_4504_27883_4504.auth'.
+Removing: 'C:\Users\Admin\AppData\Local\Temp\mathworks_tmp_4504_551_4504.auth'.
+Removing: 'C:\Users\Admin\AppData\Local\Temp\mathworks_tmp_4504_23272_4504.auth'.
+Removing: 'C:\Users\Admin\AppData\Local\Temp\mathworks_tmp_4504_15670_4504.auth'.
+Removing: 'C:\Users\Admin\AppData\Local\Temp\mathworks_tmp_4504_28361_4504.auth'.
+Removing: 'C:\Users\Admin\AppData\Local\Temp\mathworks_tmp_4504_13840_4504.auth'.
+Removing: 'C:\Users\Admin\AppData\Local\Temp\mathworks_tmp_4504_23528_4504.auth'.
+Removing: 'C:\Users\Admin\AppData\Local\Temp\mathworks_tmp_4504_2114_4504.auth'.
+Removing: 'C:\Users\Admin\AppData\Local\Temp\mathworks_tmp_4504_14017_4504.auth'.
+Removing: 'C:\Users\Admin\AppData\Local\Temp\mathworks_tmp_4504_10513_4504.auth'.
+Removing: 'C:\Users\Admin\AppData\Local\Temp\mathworks_tmp_4504_20328_4504.auth'.
+Removing: 'C:\Users\Admin\AppData\Local\Temp\mathworks_tmp_4504_16512_4504.auth'.
+Removing: 'C:\Users\Admin\AppData\Local\Temp\mathworks_tmp_4504_27919_4504.auth'.
+Removing: 'C:\Users\Admin\AppData\Local\Temp\mathworks_tmp_4504_9035_4504.auth'.
+Removing: 'C:\Users\Admin\AppData\Local\Temp\mathworks_tmp_4504_23184_4504.auth'.
+Removing: 'C:\Users\Admin\AppData\Local\Temp\mathworks_tmp_4504_15813_4504.auth'.
+Removing: 'C:\Users\Admin\AppData\Local\Temp\mathworks_tmp_4504_29768_4504.auth'.
+Removing: 'C:\Users\Admin\AppData\Local\Temp\mathworks_tmp_4504_32459_4504.auth'.
+Generating file "C:\Ravi\Programming\Matlab\PS_Project\demo_compre\Appication\PCA_main\src\readme.txt".
+copy 'C:\Ravi\Programming\Matlab\PS_Project\demo_compre\Appication\PCA_main\src\readme.txt' 'C:\Ravi\Programming\Matlab\PS_Project\demo_compre\Appication\PCA_main\distrib\readme.txt'
+copy 'C:\Ravi\Programming\Matlab\PS_Project\demo_compre\Appication\PCA_main\src\PCA_main.exe' 'C:\Ravi\Programming\Matlab\PS_Project\demo_compre\Appication\PCA_main\distrib\PCA_main.exe'
